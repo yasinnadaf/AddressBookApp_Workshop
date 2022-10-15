@@ -44,3 +44,54 @@ body{
 *{
      box-sizing: border-box;
 }
+
+/* UC2 css for cancel button */
+.cancel-image {
+    max-width: 30px;
+    max-height: 30px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px black;
+    cursor: pointer;
+    margin-left: 100px;
+}
+
+.form-content
+{padding-top: 50px;
+    min-height: calc(100%-80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form{
+    border: solid 1px black;
+    width: 65%;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+.form-head{
+    background: #008CFF 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+}
+
+.header-text{
+    /* border: 1px solid red; */
+    width: 60%;
+    display: flex;
+    color: #ffffff;
+    justify-content: flex-end;
+    font-family: corbel;
+    font-size: large;
+}
+
+* {
+    box-sizing: border-box;
+}
